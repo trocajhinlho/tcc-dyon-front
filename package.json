@@ -1,0 +1,46 @@
+{
+  "name": "dyon",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@types/react-slick": "^0.23.10",
+    "axios": "^1.4.0",
+    "clsx": "^1.2.1",
+    "dayjs": "^1.11.7",
+    "dompurify": "^3.0.3",
+    "framer-motion": "^10.12.10",
+    "jsqr": "^1.4.0",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.2.0",
+    "react-datetime-picker": "^5.0.3",
+    "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.3",
+    "react-hook-form": "^7.43.9",
+    "react-icons": "^4.7.1",
+    "react-quill": "^2.0.0",
+    "react-router-dom": "^6.8.2",
+    "react-slick": "^0.29.0",
+    "react-spinners": "^0.13.8",
+    "react-toggle": "^4.1.3",
+    "slick-carousel": "^1.8.1",
+    "use-debounce": "^9.0.4"
+  },
+  "devDependencies": {
+    "@types/dompurify": "^3.0.2",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/react-toggle": "^4.0.3",
+    "@vitejs/plugin-react-swc": "^3.0.0",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.6",
+    "typescript": "^4.9.3",
+    "vite": "^4.1.0"
+  }
+}

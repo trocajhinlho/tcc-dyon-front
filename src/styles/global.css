@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    #footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media(max-width: 410px) {
+        #footer {
+            flex-direction: column;
+            row-gap: 16px;
+            align-items: center;
+        }
+    }
+}
